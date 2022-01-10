@@ -6,25 +6,30 @@
     </head>
     <main>
         <body>
-            <div class="calculator"><h2>Calculator</h2>
+            <div class="calculator" id="calc"><h2>Calculator</h2>
                 <div class="C_con">
-                    <div class="visor" id="demo">0</div>
-                    <div class="pad op1"><div class="plus">+</div></div>
-                    <div class="pad op2"><div class="minus">-</div></div>
-                    <div class="pad op3"><div class="mult">x</div></div>
-                    <div class="pad op4"><div class="div">/</div></div>
-                    <div class="pad eq">=</div>
-                    <div class="pad num1"> 1</div>
-                    <div class="pad num2"> 2</div>
-                    <div class="pad num3"> 3</div>
-                    <div class="pad num4"> 4</div>
-                    <div class="pad num5"> 5</div>
-                    <div class="pad num6"> 6</div>
-                    <div class="pad num7"> 7</div>
-                    <div class="pad num8"> 8</div>
-                    <div class="pad num9"> 9</div>
-                    <div class="pad num0"> 0</div>
-                    <div class="pad dec"> .</div>
+                    <div class="visor">
+                        <div data-input1 class="arg1"></div>
+                        <div data-input2 class = "arg2"></div>
+                    </div>
+                    <div data-operand class="pad op1"><div class="plus">+</div></div>
+                    <div data-operand class="pad op2"><div class="minus">-</div></div>
+                    <div data-operand class="pad op3"><div class="mult">x</div></div>
+                    <div data-operand class="pad op4"><div class="div">/</div></div>
+                    <div data-equals class="pad eq"> = </div>
+                    <div data-num class="pad num1"> 1</div>
+                    <div data-num class="pad num2"> 2</div>
+                    <div data-num class="pad num3"> 3</div>
+                    <div data-num class="pad num4"> 4</div>
+                    <div data-num class="pad num5"> 5</div>
+                    <div data-num class="pad num6"> 6</div>
+                    <div data-num class="pad num7"> 7</div>
+                    <div data-num class="pad num8"> 8</div>
+                    <div data-num class="pad num9"> 9</div>
+                    <div data-num class="pad num0"> 0</div>
+                    <div data-AC class="pad clear"> AC</div>
+                    <div data-num class="pad dec"> .</div>
+                    <div data-delete class="pad del">DEL</div>
                 </div>
             </div>
         </body>
